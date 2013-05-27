@@ -43,8 +43,3 @@
 		}
 	}
 })();
-// Tests
-console.log((new Colour("#fff")).rgba);
-console.log((new Colour("aBC123")).rgba);
-console.log((new Colour("rgb(0, 10%  , 255)")).rgba);
-console.log((new Colour(" rgba(1, 400%, 512, .5)")).rgba);
