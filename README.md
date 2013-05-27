@@ -14,3 +14,10 @@ Example:
 
     console.log((new Color("rgb(0, 10%  , 255)")).rgba);
     **{r: 0, g: 25, b: 255, a: 255}**
+    
+Tests:
+======
+
+Run tests with:
+
+    node tests
