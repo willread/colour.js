@@ -8,8 +8,8 @@ Currently handles:
 - RGB and RGBA values: rgba(0, 255, 0, 0.5)
 - HSL and HSLA values: hsla(30, 10%, 50%, 1.0)
 
-Instantiation:
-==============
+Usage:
+======
 	
 The **Colour** constructor creates a colour object from the specified string (hex, RGB, RGBA, HSL or HSLA):
 
