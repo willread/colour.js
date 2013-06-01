@@ -28,3 +28,6 @@ assert(colour.stringify("hsla") === "hsla(30, 100%, 100%, 1)", "Converting from 
 
 colour = new Colour("hsl(30, 100%, 100%)");
 assert(colour.stringify("rgba") === "rgba(256, 128, 0, 1)", "Converting from HSL to RGBA");
+
+colour = new Colour("rgb(0, 0, 0)");
+assert(colour.inverse().stringify("rgb") === "rgb(255, 255, 255)", "Inverting a colour");

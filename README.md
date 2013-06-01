@@ -23,9 +23,13 @@ Or retrieve values by using the same functions with no parameter:
 
     console.log("Hue: " + colour.h());
     
-Colours can be converted to usable strings using the **stringify** method, where **hex** can be any of **hex, rgb, rgba, hsl and hsla**:
+Colours can be converted to usable strings using the `stringify` method, where `hex` can be any of `hex, rgb, rgba, hsl and hsla`:
 
     colour.stringify("hex");
+    
+You can calculate the inverse of a colour like this:
+
+    colour.inverse();
         
 Tests:
 ======
